@@ -19,6 +19,7 @@ body {
   align-items: center;
   position: relative;
   min-width: 800px;
+  overflow: hidden;
 }
 
 video {
