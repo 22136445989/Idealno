@@ -31,6 +31,14 @@ video {
   position: absolute;
 }
 
+video {
+  opacity: 1;
+}
+
+.text:hover ~ video {
+  opacity: 0.7;
+}
+
 .text {
   text-align: center;
   font-family: "Raleway";
@@ -66,12 +74,4 @@ video {
   border-bottom: 15px solid black;
   border-radius: 20px;
   padding: 30px;
-}
-
-video {
-  opacity: 1;
-}
-
-.text:hover ~ video {
-  opacity: 0.7;
 }
